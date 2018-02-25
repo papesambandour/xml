@@ -1,0 +1,60 @@
+<!ELEMENT MemoireFinEtude (Etudiant,Prof,DE,Sujet,Paiement,Jury,Memoire,Soutenance,FicheSuivi)>
+        <!ELEMENT Etudiant (nom,prenom,adresse,dateNaisse,lieuNaisse,sex,login,password,role,dateInscription,fililiare,classe)>
+        <!ELEMENT Prof (nom,prenom,adresse,dateNaisse,lieuNaisse,sex,login,password,role,dateInscription,domain,grade)>
+        <!ELEMENT DE (nom,prenom,adresse,dateNaisse,lieuNaisse,sex,login,password,role,dateInscription)>
+        <!ELEMENT Sujet (description,titre)>
+        <!ELEMENT Paiement (montant,datePaiement,typePaiement)>
+        <!ELEMENT Jury (decission)>
+        <!ELEMENT Memoire (contenue)>
+        <!ELEMENT Soutenance (dateStenance,lieuSoutenance)>
+        <!ELEMENT FicheSuivi (contenueFich)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT prenom (#PCDATA)>
+        <!ELEMENT adresse (#PCDATA)>
+        <!ELEMENT dateNaisse (#PCDATA)>
+        <!ELEMENT lieuNaisse (#PCDATA)>
+        <!ELEMENT sex (#PCDATA)>
+        <!ELEMENT login (#PCDATA)>
+        <!ELEMENT password (#PCDATA)>
+        <!ELEMENT role (#PCDATA)>
+        <!ELEMENT dateInscription (jj,mm,aa)>
+        <!ELEMENT fililiare (#PCDATA)>
+        <!ELEMENT classe (#PCDATA)>
+        <!ELEMENT matProf (#PCDATA)>
+        <!ELEMENT domain (#PCDATA)>
+        <!ELEMENT grade (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT titre (#PCDATA)>
+        <!ELEMENT idPayement (#PCDATA)>
+        <!ELEMENT montant (#PCDATA)>
+        <!ELEMENT decission (#PCDATA)>
+        <!ELEMENT datePaiement (jj,mm,aa)>
+        <!ELEMENT typePaiement (#PCDATA)>
+        <!ELEMENT contenue (#PCDATA)>
+        <!ELEMENT idSoutenance (#PCDATA)>
+        <!ELEMENT dateStenance (jj,mm,aa)>
+        <!ELEMENT lieuSoutenance (#PCDATA)>
+        <!ELEMENT contenueFich (#PCDATA)>
+        <!ELEMENT jj (#PCDATA)>
+        <!ELEMENT mm (#PCDATA)>
+        <!ELEMENT aa (#PCDATA)>
+        <!ATTLIST Etudiant  matE(#REQUIRED,#PCDATA)>
+        <!ATTLIST Prof  matProf(#REQUIRED,#PCDATA)>
+        <!ATTLIST DE  mateDE(#REQUIRED,#PCDATA)>
+        <!ATTLIST Sujet  idSujet(#REQUIRED,#PCDATA)>
+        <!ATTLIST Paiement  idPayement(#REQUIRED,#PCDATA)>
+        <!ATTLIST Jury  idJury(#REQUIRED,#PCDATA)>
+        <!ATTLIST Jury   membre_id(#REQUIRED, #PCDATA)>
+        <!ATTLIST Jury   soutenance_presid_Iid(#REQUIRED,#PCDATA)>
+        <!ATTLIST Memoire   idmemoire(#REQUIRED,#PCDATA)>
+        <!ATTLIST Memoire   proprietaire_id(#REQUIRED,#PCDATA)>
+        <!ATTLIST Soutenance   idSoutenance(#REQUIRED,#PCDATA)>
+        <!ATTLIST Soutenance   jury_id(#REQUIRED,#PCDATA)>
+        <!ATTLIST FicheSuivi   idFiche(#REQUIRED,#PCDATA)>
+        <!ATTLIST FicheSuivi   etudiant_id(#REQUIRED,#PCDATA)>
+        <!ATTLIST FicheSuivi   prof_id(#REQUIRED,#PCDATA)>
+
+
+
+
+
