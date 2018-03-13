@@ -1,0 +1,6 @@
+<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <xsd:elment name="MemoireFinEtude" type="t_MemoireFinEtude"/>
+    <xsd:complexType name="t_MemoireFinEtude">
+
+    </xsd:complexType>
+</xsd:schema>

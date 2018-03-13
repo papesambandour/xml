@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:sxd="http://www.w3.org/2001/XMLSchema">
+
+    <!-- TYPE CYBERSHOP START -->
+    <xsd:element name="cybershop" type="t_cybershop" />
+
+        <xsd:complexType name="t_cybershop">
+            <xsd:sequence>
+                <xsd:element name="produit" type="t_produit"/>
+                <xsd:element name="commande" type="t_commande"/>
+                <xsd:element name="categorieProd" type="t_categorieProd"/>
+            </xsd:sequence>
+        </xsd:complexType>
+
+    <!-- TYPE CYBERSHOP END -->
+
+    <!-- TYPE PRODUIT START -->
+        <sxd:complexType name="t_produit">
+            <xsd:sequence>
+                <xsd:element name="nomProd" type="sxd:string"/>
+                <xsd:element name="descriptionProd" type="sxd:string"/>
+                <xsd:element name="prixProd" type="t_prixProd">
+                </xsd:element>
+                <xsd:element name="qutestockProd" type="sxd:float"/>
+            </xsd:sequence>
+            <xsd:attribute name="idProd" type="t_idProd" />
+            <xsd:attribute name="idCategorie" type="sxd:IDREF"/>
+        </sxd:complexType>
+    <sxd:simpleType name="t_idProd">
+        <sxd:restriction base="sxd:string">
+            <sxd:pattern value="P([0-9]){3}"/>
+        </sxd:restriction>
+    </sxd:simpleType>
+
+        <sxd:simpleType name="t_prixProd">
+            <sxd:restriction base="sxd:float">
+                <sxd:minInclusive value="1"/>
+            </sxd:restriction>
+        </sxd:simpleType>
+
+    <!-- TYPE PRODUIT END -->
+
+    <!-- TYPE COMMANDE START -->
+
+        <xsd:complexType name="t_commande">
+            <xsd:sequence>
+                <xsd:element name="dateComm" type="t_dateComm"/>
+                <xsd:element name="nomFournisseur" type="sxd:string"/>
+                <xsd:element name="adresseFourn" type="sxd:string"/>
+                <xsd:element name="qteCom" type="sxd:int"/>
+                <xsd:element name="prixUnit" type="sxd:float"/>
+            </xsd:sequence>
+            <xsd:attribute name="idCom" type="t_idCom"/>
+            <xsd:attribute name="idProd" type="t_idProd"/>
+        </xsd:complexType>
+        <xsd:complexType name="t_dateComm">
+            <xsd:sequence>
+                <xsd:element name="jj" type="sxd:int"/>
+                <xsd:element name="mm" type="sxd:int"/>
+                <xsd:element name="aa" type="sxd:int"/>
+            </xsd:sequence>
+        </xsd:complexType>
+
+    <sxd:simpleType name="t_idCom">
+        <sxd:restriction base="sxd:string">
+            <sxd:pattern value="O([0-9]){3}"/>
+        </sxd:restriction>
+    </sxd:simpleType>
+    <!-- TYPE COMMANDE END -->
+
+    <!-- TYPE CATEGORIE START -->
+    <xsd:complexType name="t_categorieProd">
+        <xsd:sequence>
+            <xsd:element name="libeleCategie" type="t_libeleCategie"/>
+        </xsd:sequence>
+        <xsd:attribute name="idCategorie" type="sxd:ID"/>
+    </xsd:complexType>
+
+    <sxd:simpleType name="t_libeleCategie" final="restriction" >
+        <sxd:restriction base="sxd:string">
+            <sxd:enumeration value="Jouet" />
+            <sxd:enumeration value="Livres" />
+        </sxd:restriction>
+    </sxd:simpleType>
+
+    <!-- TYPE CATEGORIE END -->
+
+</xsd:schema>
+
+
+<!--
+<xsd:attribute name="ProductID" use="required" type="xsd:int"/>
+-->
