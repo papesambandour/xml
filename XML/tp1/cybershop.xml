@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <cybershop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:noNamespaceSchemaLocation="cybershop.xsd">
-
     <produit idProd="P100" idCategorie="C100">
         <nomProd>Mortal Kombat</nomProd>
         <descriptionProd>Jeux de combat mortel</descriptionProd>
         <prixProd>200</prixProd>
         <qutestockProd>200</qutestockProd>
-
     </produit>
-
     <commande idCom="O200" idProd="P100">
         <dateComm>
             <jj>12</jj>

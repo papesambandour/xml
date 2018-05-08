@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="produits.css" ?>
+<produits >
+
+    <produit idProd="P100" >
+        <nomProd>Tecno J8</nomProd>
+        <descriptionProd>Telephone portable dernier génération</descriptionProd>
+        <prixProd>200</prixProd>
+        <qutestockProd>200000</qutestockProd>
+    </produit>
+    <produit idProd="P101" >
+        <nomProd>Macbook Pro</nomProd>
+        <descriptionProd>
+            Ecran Rétina 17 pouce, 256giga disque dure,16giga ram
+        </descriptionProd>
+        <prixProd>2000000</prixProd>
+        <qutestockProd>20</qutestockProd>
+    </produit>
+    <produit idProd="P102" >
+        <nomProd> HP UI80</nomProd>
+        <descriptionProd>Ecran LED 20 Pouce</descriptionProd>
+        <prixProd>700000</prixProd>
+        <qutestockProd>70</qutestockProd>
+    </produit><produit idProd="P103" >
+        <nomProd>Macbook Air</nomProd>
+        <descriptionProd>Pc pour frimeur</descriptionProd>
+        <prixProd>400000</prixProd>
+        <qutestockProd>700</qutestockProd>
+    </produit>
+    <produit idProd="P104" >
+        <nomProd>Sac Pour Pc</nomProd>
+        <descriptionProd>
+            Sac a dos pour pc portable
+        </descriptionProd>
+        <prixProd>25000</prixProd>
+        <qutestockProd>10</qutestockProd>
+    </produit>
+    <produit idProd="P105" >
+        <nomProd> HP DESTOP 770</nomProd>
+        <descriptionProd>Ecran LED 20 Pouce</descriptionProd>
+        <prixProd>900000</prixProd>
+        <qutestockProd>7</qutestockProd>
+    </produit>
+
+</produits>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="Details_Compte.xsl" ?>
+<Comptes>
+    <Compte>
+        <Numero>O12</Numero>
+        <Type>EPARGNE</Type>
+        <Date_creation>12-12-1990</Date_creation>
+        <Solde>509000</Solde>
+    </Compte>
+    <Compte>
+        <Numero>O16</Numero>
+        <Type>CORANT</Type>
+        <Date_creation>12-01-2000</Date_creation>
+        <Solde>50000</Solde>
+    </Compte>
+    <Compte>
+        <Numero>O52</Numero>
+        <Type>COURANT</Type>
+        <Date_creation>10-12-2010</Date_creation>
+        <Solde>509000</Solde>
+    </Compte>
+    <Compte>
+        <Numero>O156</Numero>
+        <Type>EPARGNE</Type>
+        <Date_creation>12-12-2018</Date_creation>
+        <Solde>9000</Solde>
+    </Compte>
+    <Compte>
+        <Numero>O1982</Numero>
+        <Type>EPARGNE</Type>
+        <Date_creation>12-12-2017</Date_creation>
+        <Solde>5000</Solde>
+    </Compte>
+</Comptes>
