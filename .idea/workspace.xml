@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1246e91f-4e0e-4e44-a0e4-1d59143d9165" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Projet_XML/css/MemoireFinEtude.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Projet_XML/css/MemoireFinEtude.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Projet_XML/xsd/MemoireFinEtude.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Projet_XML/xsd/MemoireFinEtude.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Projet_XML/xsl/MemoireFinEtude.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XML/cas2/Comptes.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XML/cas2/Details_Compte.xsl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Projet_XML/MemoireFinEtude.dtd" afterPath="$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.dtd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Projet_XML/MemoireFinEtude.xml" afterPath="$PROJECT_DIR$/Projet_XML/xsl/MemoireFinEtude.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/dtd/MemoireFinEtude.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.dtd" afterPath="$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/dtd/MemoireFinEtude.dtd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.xml" afterPath="$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/MemoireFinEtude.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projet_XML/xsd/MemoireFinEtude.xml" afterPath="$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/xsd/MemoireFinEtude.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projet_XML/xsd/MemoireFinEtude.xsd" afterPath="$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/xsd/MemoireFinEtude.xsd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projet_XML/xsl &amp; css/MemoireFinEtude.xml" afterPath="$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/xsl &amp; css/MemoireFinEtude.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Projet_XML/xsl &amp; css/MemoireFinEtude.xsl" afterPath="$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/xsl &amp; css/MemoireFinEtude.xsl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XML/Comptes.xml" afterPath="$PROJECT_DIR$/XML/Comptes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XML/Details_Compte.xsl" afterPath="$PROJECT_DIR$/XML/Details_Compte.xsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XML/index.html" afterPath="$PROJECT_DIR$/XML/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XML/tp1/cybershop.xsd" afterPath="$PROJECT_DIR$/XML/tp1/cybershop.xsd" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MemoireFinEtude.xsd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projet_XML/xsd/MemoireFinEtude.xsd">
+      <file leaf-file-name="MemoireFinEtude.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/xsl &amp; css/MemoireFinEtude.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MemoireFinEtude.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Projet_XML/xsd/MemoireFinEtude.xml">
+        <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/MemoireFinEtude.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="62" lean-forward="false" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,6 +96,8 @@
         <option value="$PROJECT_DIR$/Projet_XML/xsl/MemoireFinEtude.xsl" />
         <option value="$PROJECT_DIR$/Projet_XML/xsl/MemoireFinEtude.xml" />
         <option value="$PROJECT_DIR$/Projet_XML/xsd/MemoireFinEtude.xml" />
+        <option value="$PROJECT_DIR$/Projet_XML/xsd/MemoireFinEtude.xsd" />
+        <option value="$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/MemoireFinEtude.xml" />
       </list>
     </option>
   </component>
@@ -146,13 +141,7 @@
             <path>
               <item name="xml" type="b2602c69:ProjectViewProjectNode" />
               <item name="xml" type="462c0819:PsiDirectoryNode" />
-              <item name="Projet_XML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xml" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
-              <item name="Projet_XML" type="462c0819:PsiDirectoryNode" />
-              <item name="xsd" type="462c0819:PsiDirectoryNode" />
+              <item name="PAPE_SAMBA_NDOUR_PROJET_XML" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,11 +159,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML" />
       <recent name="$PROJECT_DIR$/Projet_XML/xsd" />
       <recent name="$PROJECT_DIR$/Projet_XML/xsl" />
       <recent name="$PROJECT_DIR$/Projet_XML/css" />
       <recent name="$PROJECT_DIR$/Projet_XML" />
-      <recent name="$PROJECT_DIR$/XML/devoir n2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Projet_XML/dtd" />
@@ -215,12 +204,12 @@
       <workItem from="1525724515744" duration="2036000" />
       <workItem from="1526320648663" duration="7788000" />
       <workItem from="1527487847866" duration="9424000" />
-      <workItem from="1528643838798" duration="5430000" />
+      <workItem from="1528643838798" duration="6837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44209000" />
+    <option name="totallyTimeSpent" value="45616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -232,7 +221,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -343,7 +332,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.xml">
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/dtd/MemoireFinEtude.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
@@ -351,7 +340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.dtd">
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/dtd/MemoireFinEtude.dtd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
@@ -366,14 +355,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.dtd">
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/dtd/MemoireFinEtude.dtd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.xml">
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/dtd/MemoireFinEtude.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
@@ -381,7 +370,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.xml">
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/dtd/MemoireFinEtude.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -389,7 +378,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.dtd">
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/dtd/MemoireFinEtude.dtd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
@@ -461,7 +450,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.xml">
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/dtd/MemoireFinEtude.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="49" />
@@ -469,7 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/dtd/MemoireFinEtude.dtd">
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/dtd/MemoireFinEtude.dtd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="742">
           <caret line="46" column="51" lean-forward="true" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
@@ -517,18 +506,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/xsl/MemoireFinEtude.xsl">
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/xsl &amp; css/MemoireFinEtude.xsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="277" column="49" lean-forward="false" selection-start-line="277" selection-start-column="49" selection-end-line="277" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/xsl/MemoireFinEtude.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -541,7 +522,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/xsd/MemoireFinEtude.xsd">
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/xsd/MemoireFinEtude.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/xsd/MemoireFinEtude.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -549,10 +538,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projet_XML/xsd/MemoireFinEtude.xml">
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/xsl &amp; css/MemoireFinEtude.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="62" lean-forward="false" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PAPE_SAMBA_NDOUR_PROJET_XML/MemoireFinEtude.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
