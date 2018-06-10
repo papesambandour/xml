@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="Details_Compte.xsl" ?>
+<Comptes>
+    <Compte >
+        <Numero>0012</Numero>
+        <Type>EPARGNE</Type>
+        <Date_creation>12-12-1990</Date_creation>
+        <Solde>0</Solde>
+        <CodeClient>CL0012</CodeClient>
+    </Compte>
+    <Compte>
+        <Numero>O16</Numero>
+        <Type>CORANT</Type>
+        <Date_creation>12-01-2000</Date_creation>
+        <Solde>-2000</Solde>
+        <CodeClient>CL0019</CodeClient>
+    </Compte>
+    <Compte>
+        <Numero>O16</Numero>
+        <Type>CORANT</Type>
+        <Date_creation>12-01-2000</Date_creation>
+        <Solde>50000</Solde>
+        <CodeClient>CL00123</CodeClient>
+    </Compte>
+    <Compte>
+        <Numero>O52</Numero>
+        <Type>COURANT</Type>
+        <Date_creation>10-12-2010</Date_creation>
+        <Solde>509000</Solde>
+        <CodeClient>CL001223</CodeClient>
+    </Compte>
+    <Compte>
+        <Numero>O156</Numero>
+        <Type>EPARGNE</Type>
+        <Date_creation>12-12-2018</Date_creation>
+        <Solde>200000</Solde>
+        <CodeClient>CL00112</CodeClient>
+    </Compte>
+    <Compte>
+        <Numero>O1982</Numero>
+        <Type>EPARGNE</Type>
+        <Date_creation>12-12-2017</Date_creation>
+        <Solde>5000</Solde>
+        <CodeClient>CL00142</CodeClient>
+    </Compte>
+    <Client>
+        <CodeClient>CL0012</CodeClient>
+        <Nom>CISSE</Nom>
+        <Prenom>Madadou</Prenom>
+        <Tel>775663563</Tel>
+        <Adresse>Pikine</Adresse>
+    </Client>
+    <Client>
+        <CodeClient>CL0019</CodeClient>
+        <Nom>FALL</Nom>
+        <Prenom>Moustapha</Prenom>
+        <Tel>7756266256</Tel>
+        <Adresse>Liberté 6 extension</Adresse>
+    </Client>
+    <Client>
+        <CodeClient>CL00123</CodeClient>
+        <Nom>GUEYE</Nom>
+        <Prenom>Abdoulaye</Prenom>
+        <Tel>776756765</Tel>
+        <Adresse>Parcelle Assainies</Adresse>
+    </Client>
+    <Client>
+        <CodeClient>CL001223</CodeClient>
+        <Nom>GAYE</Nom>
+        <Prenom>Ndack</Prenom>
+        <Tel>777298727</Tel>
+        <Adresse>Parcelle Assainies</Adresse>
+    </Client>
+    <Client>
+        <CodeClient>CL00112</CodeClient>
+        <Nom>NIANG</Nom>
+        <Prenom>Moustapha</Prenom>
+        <Tel>7745566545</Tel>
+        <Adresse>Mbao</Adresse>
+    </Client>
+    <Client>
+        <CodeClient>CL00142</CodeClient>
+        <Nom>JALLO</Nom>
+        <Prenom>Alousseyny</Prenom>
+        <Tel>775665434</Tel>
+        <Adresse>ÉréKounda</Adresse>
+    </Client>
+</Comptes>

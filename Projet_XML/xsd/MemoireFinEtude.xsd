@@ -1,0 +1,190 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- TYPE MemoireFinEtude START -->
+    <xsd:element name="MemoireFinEtude" type="T_MemoireFinEtude" />
+        <xsd:complexType name="T_MemoireFinEtude">
+            <xsd:sequence>
+                <xsd:element name="Etudiant" type="T_Etudiant"/>
+                <xsd:element name="Prof" type="T_Prof"/>
+                <xsd:element name="DE" type="T_DE"/>
+                <xsd:element name="Sujet" type="T_Sujet"/>
+                <xsd:element name="Paiement" type="T_Paiement"/>
+                <xsd:element name="Jury" type="T_Jury"/>
+                <xsd:element name="Memoire" type="T_Memoire"/>
+                <xsd:element name="Soutenance" type="T_Soutenance"/>
+                <xsd:element name="FicheSuivi" type="T_FicheSuivi"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    <!-- TYPE MemoireFinEtude END -->
+    <!-- TYPE Etudiant START -->
+        <xsd:complexType name="T_Etudiant">
+            <xsd:sequence>
+                <xsd:element name="nom" type="xsd:string"/>
+                <xsd:element name="prenom" type="xsd:string"/>
+                <xsd:element name="adresse" type="xsd:string"/>
+                <xsd:element name="dateNaisse" type="xsd:string"/>
+                <xsd:element name="lieuNaisse" type="xsd:string"/>
+                <xsd:element name="sex" type="xsd:string"/>
+                <xsd:element name="login" type="xsd:string"/>
+                <xsd:element name="password" type="xsd:string"/>
+                <xsd:element name="role" type="xsd:string"/>
+                <xsd:element name="dateInscription" type="T_dateInscription"/>
+                <xsd:element name="fililiare" type="xsd:string"/>
+                <xsd:element name="classe" type="xsd:string"/>
+            </xsd:sequence>
+            <xsd:attribute name="matE" type="xsd:string" />
+        </xsd:complexType>
+    <xsd:complexType name="T_dateInscription">
+        <xsd:sequence>
+            <xsd:element name="jj" type="xsd:int"/>
+            <xsd:element name="mm" type="xsd:int"/>
+            <xsd:element name="aa" type="xsd:int"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <!-- TYPE Etudiant END -->
+
+    <!-- TYPE Prof START -->
+    <xsd:complexType name="T_Prof">
+        <xsd:sequence>
+            <xsd:element name="nom" type="xsd:string"/>
+            <xsd:element name="prenom" type="xsd:string"/>
+            <xsd:element name="adresse" type="xsd:string"/>
+            <xsd:element name="dateNaisse" type="xsd:string"/>
+            <xsd:element name="lieuNaisse" type="xsd:string"/>
+            <xsd:element name="sex" type="xsd:string"/>
+            <xsd:element name="login" type="xsd:string"/>
+            <xsd:element name="password" type="xsd:string"/>
+            <xsd:element name="role" type="xsd:string"/>
+            <xsd:element name="dateInscription" type="T_dateInscription"/>
+            <xsd:element name="fililiare" type="xsd:string"/>
+            <xsd:element name="classe" type="xsd:string"/>
+            <xsd:element name="domain" type="xsd:string"/>
+            <xsd:element name="grade" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="matProf" type="xsd:string" />
+    </xsd:complexType>
+    <xsd:complexType name="T_dateInscription">
+        <xsd:sequence>
+            <xsd:element name="jj" type="xsd:int"/>
+            <xsd:element name="mm" type="xsd:int"/>
+            <xsd:element name="aa" type="xsd:int"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <!-- TYPE Prof END -->
+
+    <!-- TYPE DE START -->
+    <xsd:complexType name="T_DE">
+        <xsd:sequence>
+            <xsd:element name="nom" type="xsd:string"/>
+            <xsd:element name="prenom" type="xsd:string"/>
+            <xsd:element name="adresse" type="xsd:string"/>
+            <xsd:element name="dateNaisse" type="xsd:string"/>
+            <xsd:element name="lieuNaisse" type="xsd:string"/>
+            <xsd:element name="sex" type="xsd:string"/>
+            <xsd:element name="login" type="xsd:string"/>
+            <xsd:element name="password" type="xsd:string"/>
+            <xsd:element name="role" type="xsd:string"/>
+            <xsd:element name="dateInscription" type="T_dateInscription"/>
+            <xsd:element name="fililiare" type="xsd:string"/>
+            <xsd:element name="classe" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="mateDE" type="xsd:string" />
+    </xsd:complexType>
+    <xsd:complexType name="T_dateInscription">
+        <xsd:sequence>
+            <xsd:element name="jj" type="xsd:int"/>
+            <xsd:element name="mm" type="xsd:int"/>
+            <xsd:element name="aa" type="xsd:int"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <!-- TYPE DE END -->
+
+    <!-- TYPE Sujet START -->
+    <xsd:complexType name="T_Sujet">
+        <xsd:sequence>
+            <xsd:element name="description" type="xsd:string"/>
+            <xsd:element name="titre" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="idSujet" type="xsd:string" />
+    </xsd:complexType>
+
+    <!-- TYPE Sujet END -->
+     <!-- TYPE Paiement START -->
+    <xsd:complexType name="T_Paiement">
+        <xsd:sequence>
+            <xsd:element name="montant" type="xsd:string"/>
+            <xsd:element name="datePaiement" type="T_paiement"/>
+            <xsd:element name="typePaiement" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="idPayement" type="xsd:string" />
+    </xsd:complexType>
+
+    <xsd:complexType name="T_paiement">
+        <xsd:sequence>
+            <xsd:element name="jj" type="xsd:int"/>
+            <xsd:element name="mm" type="xsd:int"/>
+            <xsd:element name="aa" type="xsd:int"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- TYPE Paiement END -->
+
+     <!-- TYPE Jury START -->
+    <xsd:complexType name="T_Jury">
+        <xsd:sequence>
+            <xsd:element name="decission" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="idJury" type="xsd:string" />
+        <xsd:attribute name="membre_id" type="xsd:string" />
+        <xsd:attribute name="soutenance_presid_Iid" type="xsd:string" />
+    </xsd:complexType>
+    <!-- TYPE Jury END -->
+
+     <!-- TYPE Memoire START -->
+    <xsd:complexType name="T_Memoire">
+        <xsd:sequence>
+            <xsd:element name="contenue" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="idmemoire" type="xsd:string" />
+        <xsd:attribute name="proprietaire_id" type="xsd:string" />
+    </xsd:complexType>
+    <!-- TYPE Memoire END -->
+
+     <!-- TYPE Soutenance START -->
+    <xsd:complexType name="T_Soutenance">
+        <xsd:sequence>
+            <xsd:element name="contenue" type="xsd:string"/>
+            <xsd:element name="dateStenance" type="T_dateStenance"/>
+            <xsd:element name="lieuSoutenance" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="idSoutenance" type="xsd:string" />
+        <xsd:attribute name="jury_id" type="xsd:string" />
+    </xsd:complexType>
+
+    <xsd:complexType name="T_dateStenance">
+        <xsd:sequence>
+            <xsd:element name="jj" type="xsd:int"/>
+            <xsd:element name="mm" type="xsd:int"/>
+            <xsd:element name="aa" type="xsd:int"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- TYPE Soutenance END -->
+     <!-- TYPE FicheSuivi START -->
+    <xsd:complexType name="T_FicheSuivi">
+        <xsd:sequence>
+            <xsd:element name="contenueFich" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="idFiche" type="xsd:string" />
+        <xsd:attribute name="etudiant_id" type="xsd:string" />
+        <xsd:attribute name="prof_id" type="xsd:string" />
+    </xsd:complexType>
+
+    <!-- TYPE FicheSuivi END -->
+
+</xsd:schema>
+
+
+<!--
+<xsd:attribute name="ProductID" use="required" type="xsd:int"/>
+-->
